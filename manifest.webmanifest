@@ -1,0 +1,18 @@
+{
+  "name": "Terminal Notes",
+  "short_name": "Terminal",
+  "description": "Terminal-style notes",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050805",
+  "theme_color": "#050805",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
