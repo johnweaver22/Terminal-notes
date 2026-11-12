@@ -15,12 +15,12 @@
       "purpose": "any"
     },
     {
-      "src": "./icon-512.png",
+      "src": "./icon-512.png?v=2",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     }
   ],
-  "id": "./",
+  "id": "/Terminal-notes/",
   "orientation": "any"
 }

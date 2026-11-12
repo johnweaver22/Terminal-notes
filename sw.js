@@ -1,6 +1,6 @@
 'use strict';
-const CACHE='terminal-notes-offline-v5';
-const SHELL=['./index.html','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png'];
+const CACHE='terminal-notes-offline-v6';
+const SHELL=['./index.html','./manifest.webmanifest?v=2','./icon.svg','./icon-192.png','./icon-512.png?v=2'];
 const urls=SHELL.map(path=>new URL(path,self.location).href);
 async function valid(response,url){
   if(!response.ok||response.redirected)return false;
